@@ -1,0 +1,26 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #009900;
+    font-weight: 600;
+    color: #fff;
+}

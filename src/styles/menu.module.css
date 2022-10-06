@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    background-color: #fff;
+    padding: 8px;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(1, 180, 1);
+    border-radius: 15px;
+    padding: 8px 12px;
+}
+
+.item.active {
+    font-weight: 500;
+}

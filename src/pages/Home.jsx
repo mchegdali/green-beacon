@@ -1,0 +1,52 @@
+import { Link } from 'react-router-dom'
+import * as styles from '../styles/home.module.css'
+import LogoIcon from 'jsx:../icons/logo.svg'
+
+const climateChangeImgUrl = new URL("../images/matt-palmer-K5KmnZHv1Pg-unsplash.jpg", import.meta.url)
+const balise2DImgUrl = new URL("../images/balise-2d.png", import.meta.url)
+
+function HomePage() {
+    return (
+        <main className={styles.main}>
+             <header className={styles.header}>
+                <h1>Green Beacon</h1>
+                <p>La balise connectée avec la terre</p>
+            </header>
+
+            <article className={styles.article}>
+                <section>
+                    <p className={styles.p}>
+                        La hausse exceptionnelle des prix des matières premières et
+                        de l'énergie durant les dernières années nous obligent toutes et tous à revoir nos
+                        façons de consommer et de produire.
+                    </p>
+                    <p className={styles.p}>
+                        De plus, le réchauffement climatique et le renforcement
+                        des normes anti-pollution dans l'agriculture s'imposent
+                        à tous les agriculteurs.
+                    </p>
+                </section>
+                <section>
+                    
+                    <h2>Notre solution</h2>
+                    <img src={balise2DImgUrl} alt="Balise GreenBeacon" />
+                    <p className={styles.p}>
+                        Pour vous aider dans votre quotidien, la balise
+                        intelligente{' '}
+                        <strong>
+                            <Link to={'/produit'}>Green Beacon</Link>
+                        </strong>{' '}
+                        est la solution pour vous permettre de prendre des
+                        décisions. Pour acquérir une cartographie détaillée de
+                        vos terres, n'hésitez plus et commandez !
+                    </p>
+                    <Link to="/contact" className={styles.link_quote}>
+                        Commander ma balise
+                    </Link>
+                </section>
+            </article>
+        </main>
+    )
+}
+
+export default HomePage

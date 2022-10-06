@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-0.5 -0.5 161 171" >
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-808080-1-000000-1-s-0">
+            <stop offset="0%" style="stop-color: rgb(128, 128, 128); stop-opacity: 1;"/>
+            <stop offset="100%" style="stop-color: rgb(0, 0, 0); stop-opacity: 1;"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-00ff00-1-009900-1-s-0">
+            <stop offset="0%" style="stop-color: rgb(0, 255, 0); stop-opacity: 1;"/>
+            <stop offset="100%" style="stop-color: rgb(0, 153, 0); stop-opacity: 1;"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <path d="M 80 80 L 140 108.81 L 140 121.19 L 80 150 L 20 121.19 L 20 108.81 Z" fill="url(#mx-gradient-808080-1-000000-1-s-0)" stroke="#666666" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 20 108.81 L 80 137.62 L 140 108.81 M 80 137.62 L 80 150" fill="none" stroke="#666666" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 80 30 L 130 54.01 L 130 105.99 L 80 130 L 30 105.99 L 30 54.01 Z" fill="url(#mx-gradient-00ff00-1-009900-1-s-0)" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 30 54.01 L 80 78.02 L 130 54.01 M 80 78.02 L 80 130" fill="none" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 80 0 L 160 38.41 L 160 131.59 L 80 170 L 0 131.59 L 0 38.41 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 38.41 L 80 76.83 L 160 38.41 M 80 76.83 L 80 170" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+</svg>
