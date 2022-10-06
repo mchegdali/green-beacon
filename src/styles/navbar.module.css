@@ -1,5 +1,9 @@
 .nav {
+    position: sticky;
+    top: 0;
+    left: 0;
     height: 64px;
+    min-height: 64px;
     padding: 8px;
     border-bottom: 1px solid lightgray;
 
@@ -10,6 +14,7 @@
 
     justify-content: space-between;
     align-items: center;
+    background: #fff;
 }
 
 .navbar_brand {
@@ -23,4 +28,8 @@
 .btn_menu {
     border: none;
     background: none;
+}
+
+.menu_icon{
+    width: 40px;
 }

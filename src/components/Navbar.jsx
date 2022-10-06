@@ -10,11 +10,10 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
     useEffect(() => {
-        if(menuOpen) {
-            document.body.classList.add("of_screen")
-        }
-        else {
-            document.body.classList.remove("of_screen")
+        if (menuOpen) {
+            document.body.classList.add('of_screen')
+        } else {
+            document.body.classList.remove('of_screen')
         }
     }, [menuOpen])
 
@@ -33,14 +32,13 @@ const Navbar = () => {
                     onClick={() => setMenuOpen(!menuOpen)}
                 >
                     {!menuOpen ? (
-                        <MenuIcon className={styles.icon_menu} />
+                        <MenuIcon className={styles.menu_icon} />
                     ) : (
-                        <CloseIcon className={styles.icon_close} />
+                        <CloseIcon className={styles.menu_icon} />
                     )}
                 </button>
             </nav>
             {menuOpen && <Menu />}
-            
         </>
     )
 }

@@ -1,8 +1,7 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import * as styles from '../styles/menu.module.css'
 
-const Menu = ({openMenuHandler}) => {
-
+const Menu = ({ openMenuHandler }) => {
     const navigate = useNavigate()
     const navlinkOnClickHandler = (e) => {
         openMenuHandler(false)

@@ -36,7 +36,7 @@
     color: #fff;
 }
 
-.article>*:not(:last-child) {
+.article > *:not(:last-child) {
     margin-bottom: 4px;
 }
 
@@ -47,7 +47,7 @@
     margin-bottom: 6px;
 }
 
-.article section>*:not(:last-child) {
+.article section > *:not(:last-child) {
     margin-bottom: 4px;
 }
 

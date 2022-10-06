@@ -1,10 +1,11 @@
 import * as styles from '../styles/product.module.css'
-import { Link } from 'react-router-dom'
 
 const dataImgUrl = new URL(
-    '../images/mika-baumeister-Wpnoqo2plFA-unsplash.jpg',
+    '../images/mika-baumeister-Wpnoqo2plFA-unsplash.jpg?as=avif',
     import.meta.url
 )
+
+const mapImgUrl = new URL('../images/map.png?as=avif', import.meta.url)
 
 const ProductPage = () => {
     return (
@@ -22,7 +23,7 @@ const ProductPage = () => {
                         alt=""
                         className={`${styles.img} ${styles.fullscreen}`}
                     />
-                    <p className={styles.p}>
+                    <p>
                         Par le biais de multiples capteurs, Green Beacon réalise
                         une "capture" régulière de votre parcelle de manière
                         autonome.
@@ -30,10 +31,14 @@ const ProductPage = () => {
                 </section>
                 <section>
                     <h2>Cartographie de vos parcelles</h2>
-                    <p className={styles.p}>
-                        Par le biais de multiples capteurs, Green Beacon réalise
-                        une "capture" régulière de votre parcelle de manière
-                        autonome.
+                    <img
+                        src={mapImgUrl}
+                        alt=""
+                        className={`${styles.img} ${styles.fullscreen}`}
+                    />
+                    <p>
+                        Grâce à ces données, vous pouvez suivre en temps réel les données acquises par votre balise.
+                        Une carte vous indique en un coup d'oeil l'état de la parcelle surveillée.
                     </p>
                 </section>
             </article>

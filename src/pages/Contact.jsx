@@ -14,7 +14,12 @@ function ContactPage() {
             <header className={styles.header}>
                 <h1>Nous contacter</h1>
             </header>
-            <form action="#" method="post" className={styles.form} onSubmit={formOnSubmitHandler}>
+            <form
+                action="#"
+                method="post"
+                className={styles.form}
+                onSubmit={formOnSubmitHandler}
+            >
                 <div className={styles.form_group}>
                     <label htmlFor={id + '-email'}>Email</label>
                     <input type="email" name="email" id={id + '-email'} />
@@ -25,9 +30,11 @@ function ContactPage() {
                 </div>
                 <div className={styles.form_group}>
                     <label htmlFor={id + '-content'}>Message</label>
-                    <textarea  name="content" id={id + '-content'} />
+                    <textarea name="content" id={id + '-content'} />
                 </div>
-                <button type="submit" className={styles.btn_submit}>Envoyer</button>
+                <button type="submit" className={styles.btn_submit}>
+                    Envoyer
+                </button>
             </form>
         </main>
     )
