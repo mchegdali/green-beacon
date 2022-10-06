@@ -3,10 +3,10 @@ import * as styles from '../styles/home.module.css'
 import LogoIcon from 'jsx:../icons/logo.svg'
 
 const climateChangeImgUrl = new URL(
-    '../images/matt-palmer-K5KmnZHv1Pg-unsplash.jpg?as=avif',
+    '../images/matt-palmer-K5KmnZHv1Pg-unsplash.jpg?as=avif&width=400',
     import.meta.url
 )
-const balise2DImgUrl = new URL('../images/balise-2d.png?as=avif', import.meta.url)
+const balise2DImgUrl = new URL('../images/balise-2d.png?as=avif&width=400', import.meta.url)
 
 
 function HomePage() {
