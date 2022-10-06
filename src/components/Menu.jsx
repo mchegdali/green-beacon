@@ -13,7 +13,8 @@ const Menu = ({ openMenuHandler }) => {
             <ul className={styles.items}>
                 <li className={styles.item}>
                     <NavLink
-                        to=""
+                        to="/"
+                        end
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined
                         }
@@ -24,9 +25,9 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="produit"
+                        to="/produit"
                         className={({ isActive }) =>
-                            isActive ? styles.active : undefined
+                            `${isActive && styles.active}`
                         }
                         onClick={navlinkOnClickHandler}
                     >
@@ -35,9 +36,9 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="contact"
+                        to="/contact"
                         className={({ isActive }) =>
-                            isActive ? styles.active : undefined
+                            `${isActive && styles.active}`
                         }
                         onClick={navlinkOnClickHandler}
                     >

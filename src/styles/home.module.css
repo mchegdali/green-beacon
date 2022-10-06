@@ -14,18 +14,6 @@
     font-size: 1.25rem;
 }
 
-.link_quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 8px;
-    border-radius: 5px;
-    background-color: #009900;
-    font-weight: 600;
-    color: #fff;
-}
-
 .article > *:not(:last-child),
 .section > *:not(:last-child) {
     margin-bottom: 4px;
@@ -38,6 +26,18 @@
     margin-bottom: 6px;
 }
 
-.section > *:not(img) {
+.section > *:not(img, .link_quote) {
     padding: 0px 8px;
+}
+
+.link_quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #009900;
+    font-weight: 600;
+    color: #fff;
 }

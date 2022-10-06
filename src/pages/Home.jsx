@@ -11,7 +11,7 @@ function HomePage() {
             </header>
 
             <article className={styles.article}>
-                <section>
+                <section className={styles.section}>
                     <p>
                         La hausse exceptionnelle des prix des matières premières
                         et de l'énergie durant les dernières années nous
@@ -24,7 +24,7 @@ function HomePage() {
                         à tous les agriculteurs.
                     </p>
                 </section>
-                <section>
+                <section className={styles.section}>
                     <h2>Notre solution</h2>
                     <Balise2DImage />
                     <p>

@@ -30,6 +30,6 @@
     padding: 8px 12px;
 }
 
-.item.active {
-    font-weight: 500;
+a.active {
+    font-weight: 600;
 }
