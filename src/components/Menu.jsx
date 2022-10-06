@@ -35,17 +35,6 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="qui-sommes-nous"
-                        className={({ isActive }) =>
-                            isActive ? styles.active : undefined
-                        }
-                        onClick={navlinkOnClickHandler}
-                    >
-                        Qui sommes-nous?
-                    </NavLink>
-                </li>
-                <li className={styles.item}>
-                    <NavLink
                         to="contact"
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined

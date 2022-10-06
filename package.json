@@ -7,9 +7,9 @@
   "scripts": {
     "lint": "prettier --write .",
     "start": "parcel",
-    "build": "parcel build --dist-dir dist",
+    "build": "parcel build --dist-dir build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
