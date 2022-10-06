@@ -15,12 +15,12 @@ function HomePage() {
 
             <article className={styles.article}>
                 <section>
-                    <p className={styles.p}>
+                    <p>
                         La hausse exceptionnelle des prix des matières premières et
                         de l'énergie durant les dernières années nous obligent toutes et tous à revoir nos
                         façons de consommer et de produire.
                     </p>
-                    <p className={styles.p}>
+                    <p>
                         De plus, le réchauffement climatique et le renforcement
                         des normes anti-pollution dans l'agriculture s'imposent
                         à tous les agriculteurs.
@@ -30,7 +30,7 @@ function HomePage() {
                     
                     <h2>Notre solution</h2>
                     <img src={balise2DImgUrl} alt="Balise GreenBeacon" />
-                    <p className={styles.p}>
+                    <p>
                         Pour vous aider dans votre quotidien, la balise
                         intelligente{' '}
                         <strong>
