@@ -1,2 +1,2 @@
 const e=document.querySelector(".btn__menu"),s=document.querySelector(".btn__menu > .icon__menu"),o=document.querySelector(".btn__menu > .icon__close"),n=document.querySelector(".menu");let _=!1;e.addEventListener("click",(()=>{_=!_,_?(n.classList.add("menu__show"),s.classList.add("menu__show"),o.classList.add("menu__show"),document.body.classList.add("menu__show")):(n.classList.remove("menu__show"),s.classList.remove("menu__show"),o.classList.remove("menu__show"),document.body.classList.remove("menu__show"))}));
-//# sourceMappingURL=index.b3a2b614.js.map
+//# sourceMappingURL=qui-sommes-nous.76050318.js.map
