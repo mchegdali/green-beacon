@@ -1,17 +1,10 @@
 import { Link } from 'react-router-dom'
+import Balise2DImage from '../components/images/Balise2DImage'
 import * as styles from '../styles/home.module.css'
-import LogoIcon from 'jsx:../icons/logo.svg'
-
-const climateChangeImgUrl = new URL(
-    '../images/matt-palmer-K5KmnZHv1Pg-unsplash.jpg?as=avif&width=400',
-    import.meta.url
-)
-const balise2DImgUrl = new URL('../images/balise-2d.png?as=avif&width=400', import.meta.url)
-
 
 function HomePage() {
     return (
-        <main className={styles.main}>
+        <main>
             <header className={styles.header}>
                 <h1>Green Beacon</h1>
                 <p>La balise connectée avec la terre</p>
@@ -33,7 +26,7 @@ function HomePage() {
                 </section>
                 <section>
                     <h2>Notre solution</h2>
-                    <img src={balise2DImgUrl} alt="Balise GreenBeacon" />
+                    <Balise2DImage />
                     <p>
                         Pour vous aider dans votre quotidien, la balise
                         intelligente{' '}

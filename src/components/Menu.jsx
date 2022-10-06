@@ -13,7 +13,7 @@ const Menu = ({ openMenuHandler }) => {
             <ul className={styles.items}>
                 <li className={styles.item}>
                     <NavLink
-                        to="/"
+                        to=""
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined
                         }
@@ -24,7 +24,7 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="/produit"
+                        to="produit"
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined
                         }
@@ -35,13 +35,24 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="/qui-sommes-nous"
+                        to="qui-sommes-nous"
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined
                         }
                         onClick={navlinkOnClickHandler}
                     >
                         Qui sommes-nous?
+                    </NavLink>
+                </li>
+                <li className={styles.item}>
+                    <NavLink
+                        to="contact"
+                        className={({ isActive }) =>
+                            isActive ? styles.active : undefined
+                        }
+                        onClick={navlinkOnClickHandler}
+                    >
+                        Nous contacter
                     </NavLink>
                 </li>
             </ul>
