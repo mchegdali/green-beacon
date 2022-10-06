@@ -1,0 +1,2 @@
+!function(){const e=document.querySelector(".btn__menu"),s=document.querySelector(".btn__menu > .icon__menu"),n=document.querySelector(".btn__menu > .icon__close"),o=document.querySelector(".menu");let t=!1;e.addEventListener("click",(()=>{t=!t,t?(o.classList.add("menu__show"),s.classList.add("menu__show"),n.classList.add("menu__show"),document.body.classList.add("menu__show")):(o.classList.remove("menu__show"),s.classList.remove("menu__show"),n.classList.remove("menu__show"),document.body.classList.remove("menu__show"))}))}();
+//# sourceMappingURL=index.b7498d9a.js.map
