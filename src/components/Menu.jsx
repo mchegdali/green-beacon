@@ -14,7 +14,7 @@ const Menu = ({ openMenuHandler }) => {
                         to="/"
                         end={true}
                         className={({ isActive }) =>
-                            isActive ? styles.active : undefined
+                            `${isActive && styles.active}`
                         }
                         onClick={navlinkOnClickHandler}
                     >
