@@ -37,7 +37,7 @@ const ProductPage = () => {
                     <h2>Fiabilité garantie</h2>
                     <OKImage />
                     <p>
-                        Une garantie de 3 ans vous permet d'être serein quant à
+                        Une garantie de 2 ans vous permet d'être serein quant à
                         la sécurité de vos données et de vos terres.
                     </p>
                 </section>
