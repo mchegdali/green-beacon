@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-* {
-    font-family: 'Inter', sans-serif;
+*,
+*::before,
+*::after {
     margin: 0;
     bottom: 0;
     box-sizing: border-box;
 }
 
+
 html {
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
+    background-color: #FDFFFD;
+}
+
+main {
+    min-height: calc(100vh - 64px);
 }
 
 a {
@@ -25,5 +33,14 @@ a {
 @media (min-width: 480px) {
     html {
         font-size: 16px;
+        
     }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
 }

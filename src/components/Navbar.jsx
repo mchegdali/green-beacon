@@ -24,7 +24,12 @@ const Navbar = () => {
                     <span>
                         <LogoIcon height={40} width={40} />
                     </span>
-                    Green Beacon
+                    <div>
+                        <span className={styles.color_green}>G</span>reen
+                    </div>
+                    <div>
+                        <span className={styles.color_green}>B</span>eacon
+                    </div>
                 </Link>
                 <button
                     type="button"
@@ -38,7 +43,7 @@ const Navbar = () => {
                     )}
                 </button>
             </nav>
-            {menuOpen && <Menu openMenuHandler={setMenuOpen}/>}
+            {menuOpen && <Menu openMenuHandler={setMenuOpen} />}
         </>
     )
 }

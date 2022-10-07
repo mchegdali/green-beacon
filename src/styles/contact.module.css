@@ -15,7 +15,7 @@
 }
 
 .form>*:not(:last-child) {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .form_group {
@@ -42,6 +42,7 @@
 
 .input {
     padding: 8px;
+    background-color: #fff;
 }
 
 .input:focus,
