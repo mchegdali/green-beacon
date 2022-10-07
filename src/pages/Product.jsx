@@ -1,5 +1,6 @@
 import DataImage from '../components/images/DataImage'
 import MapImage from '../components/images/MapImage'
+import OKImage from '../components/images/OKImage'
 import * as styles from '../styles/product.module.css'
 
 const ProductPage = () => {
@@ -30,6 +31,14 @@ const ProductPage = () => {
                         les données acquises par votre balise. Une carte vous
                         indique en un coup d'oeil l'état de la parcelle
                         surveillée.
+                    </p>
+                </section>
+                <section className={styles.section}>
+                    <h2>Fiabilité garantie</h2>
+                    <OKImage />
+                    <p>
+                        Une garantie de 3 ans vous permet d'être serein quant à
+                        la sécurité de vos données et de vos terres.
                     </p>
                 </section>
             </article>
