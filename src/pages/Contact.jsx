@@ -10,7 +10,7 @@ function ContactPage() {
     }
 
     return (
-        <main className={styles.main}>
+        <main>
             <header className={styles.header}>
                 <h1>Nous contacter</h1>
             </header>
@@ -22,15 +22,15 @@ function ContactPage() {
             >
                 <div className={styles.form_group}>
                     <label htmlFor={id + '-email'}>Email</label>
-                    <input type="email" name="email" id={id + '-email'} />
+                    <input className={styles.input} type="email" name="email" id={id + '-email'} required/>
                 </div>
                 <div className={styles.form_group}>
                     <label htmlFor={id + '-company'}>Nom de société</label>
-                    <input type="text" name="company" id={id + '-company'} />
+                    <input className={styles.input} type="text" name="company" id={id + '-company'} required/>
                 </div>
                 <div className={styles.form_group}>
                     <label htmlFor={id + '-content'}>Message</label>
-                    <textarea name="content" id={id + '-content'} />
+                    <textarea  className={styles.textarea} name="content" id={id + '-content'} required/>
                 </div>
                 <button type="submit" className={styles.btn_submit}>
                     Envoyer

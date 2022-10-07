@@ -1,11 +1,9 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import * as styles from '../styles/menu.module.css'
 
 const Menu = ({ openMenuHandler }) => {
-    const navigate = useNavigate()
-    const navlinkOnClickHandler = (e) => {
+    const navlinkOnClickHandler = () => {
         openMenuHandler(false)
-        navigate(e.currentTarget.to)
     }
 
     return (
@@ -14,7 +12,7 @@ const Menu = ({ openMenuHandler }) => {
                 <li className={styles.item}>
                     <NavLink
                         to="/"
-                        end
+                        end={true}
                         className={({ isActive }) =>
                             isActive ? styles.active : undefined
                         }
@@ -25,7 +23,7 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="/produit"
+                        to="produit"
                         className={({ isActive }) =>
                             `${isActive && styles.active}`
                         }
@@ -36,7 +34,7 @@ const Menu = ({ openMenuHandler }) => {
                 </li>
                 <li className={styles.item}>
                     <NavLink
-                        to="/contact"
+                        to="contact"
                         className={({ isActive }) =>
                             `${isActive && styles.active}`
                         }

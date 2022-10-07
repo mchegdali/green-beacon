@@ -38,7 +38,7 @@ const Navbar = () => {
                     )}
                 </button>
             </nav>
-            {menuOpen && <Menu />}
+            {menuOpen && <Menu openMenuHandler={setMenuOpen}/>}
         </>
     )
 }

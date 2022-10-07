@@ -1,18 +1,20 @@
-.main {
-    padding: 0 8px;
-}
-
 .header {
+    padding: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .form {
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
-.form > *:not(:last-child) {
+.form>*:not(:last-child) {
     margin-bottom: 4px;
 }
 
@@ -22,10 +24,6 @@
     flex-direction: column;
 }
 
-.form_group textarea {
-    resize: vertical;
-}
-
 .btn_submit {
     background-color: #090;
     color: #fff;
@@ -33,4 +31,24 @@
     padding: 8px;
     font-weight: 600;
     border-radius: 5px;
+}
+
+.input,
+.textarea {
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.input {
+    padding: 8px;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: rgb(21, 21, 194);
+}
+
+.textarea {
+    resize: vertical;
 }

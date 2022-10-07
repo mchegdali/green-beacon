@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-    BrowserRouter,
-    createBrowserRouter,
-    Route,
-    RouterProvider,
-    Routes,
-} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/Home'
 import ProductPage from './pages/Product'
 import Layout from './components/Layout'
@@ -38,9 +32,7 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
-    return (
-        <RouterProvider router={router} />
-    )
+    return <RouterProvider router={router} />
 }
 
 export default App
